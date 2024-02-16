@@ -2,7 +2,7 @@
 
 TEAM_NAME="LUTON TOWN FC"
 SEARCH="Liverpool"
-TIER=3
+TIER=2
 
 
 if [[ $(echo "$TEAM_NAME" | tr '[:upper:]' '[:lower:]') =~ $(echo "$SEARCH" | tr '[:upper:]' '[:lower:]') ]]; then
