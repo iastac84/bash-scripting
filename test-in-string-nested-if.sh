@@ -6,9 +6,9 @@ TIER=2
 
 
 if [[ $(echo "$TEAM_NAME" | tr '[:upper:]' '[:lower:]') =~ $(echo "$SEARCH" | tr '[:upper:]' '[:lower:]') ]]; then
-    echo "We are Luton Town"
+    echo "We are $TEAM_NAME"
 else
-    echo "We searched for $SEARCH"
+    echo "We searched for $SEARCH not $TEAM_NAME"
     if [[ ${TIER} = 1 ]]; then
         echo "Tier 1"
     elif [[ ${TIER} = 2 ]]; then
